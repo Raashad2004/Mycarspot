@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000; /* Added black background */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8;
+  color: #fff; /* Changed text color to white */
+}
+
+header {
+  background: #404aba;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #000; /* Added black background */
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.btn {
+  background: #e8491d;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.car-listing {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.car {
+  display: inline-block;
+  width: 34%; /* Increased width slightly more */
+  margin: 20px; /* Adjusted margin for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: left;
+  vertical-align: top;
+  height: 450px; /* Increased height slightly more */
+}
+
+.car img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.car p {
+  margin: 5px 10px;
+}
+
+.car .btn {
+  margin: 10px auto; /* Center the button horizontally */
+  display: block; /* Ensure the button spans its container */
+  text-align: center; /* Align text inside the button */
+  width: 80%; /* Adjust button width for better appearance */
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #fff; /* Changed text color to white */
+}
+
+p {
+  font-size: 16px;
+  color: #fff; /* Changed text color to white */
+}
